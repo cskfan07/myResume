@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      min-height: 100vh;
+      background-color: #f9f9f9;
+    }
+
+    .left {
+      width: 35%;
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    .left img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+      border: 4px solid white;
+    }
+
+    .left h2 {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .left p {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    .section-title {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      border-bottom: 1px solid #c75050;
+      padding-bottom: 5px;
+    }
+
+    .left ul {
+      list-style: none;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .left ul li {
+      margin-bottom: 8px;
+    }
+
+    .right {
+      width: 65%;
+      padding: 30px 40px;
+    }
+
+    .right h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #692121;
+    }
+
+    .right p {
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .experience, .education, .careerbreak {
+      margin-bottom: 30px;
+    }
+
+    .job, .degree {
+      margin-bottom: 15px;
+    }
+
+    .job-title, .degree-title {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .date {
+      float: right;
+      font-size: 13px;
+      color: gray;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        width: 100%;
+      }
+
+      .date {
+        float: none;
+        display: block;
+        margin-top: 5px;
+      }
+    }
+  </style>
+</head>
+<body oncontextmenu="return false">
+
+  <div class="left">
+    <img src="new.jpeg" alt="Profile Photo">
+    <h2>ANKIT KUMAR GUPTA</h2>
+    <p>Fullstack Java Developer intern</p>
+
+    <div class="section-title">Contact Details</div>
+    <ul>
+      <li>📞 7857910847</li>
+      <li>✉️ ga8774040@gmail.com</li>
+      <li>🏠 chatra jharkhand,825403</li>
+    </ul>
+
+    <div class="section-title">Skills</div>
+    <ul>
+       
+      <li>HTML5</li>
+      <li>Css</li>
+      <li>JavaScript</li>
+      <li>PHP basic</li>
+      <li>C++ basic</li>
+      <li>C basic</li>
+      <li>Java basic</li>
+    </ul>
+
+    <div class="section-title">Languages</div>
+    <ul>
+      <li>English: Proficient</li>
+      <li>hindi: native</li>
+    </ul>
+    <div class="section-title" >Social Media Profile</div>
+        <h2></h2>
+        <button>
+         <a href="https://www.linkedin.com/in/ankit-gupta2201"  class="linkdin">Linkedin</a>     
+        </button>
+       <button>
+        <a href="https://github.com/cskfan07">Github</a>
+       </button>
+        
+
+    
+     
+
+
+
+  </div>
+  
+
+  <div class="right">
+    <h2>Profile</h2>
+    <p>
+      A motivated and disciplined BCA graduate with a strong foundation in Java development and web technologies.Seeking an internship opportunity as a Fullstack java Developer to apply and expand my skills in real world projects while contibuting meaningfully to the organization.
+    </p>
+
+    <div class="experience">
+      <h2>Work Experience</h2>
+
+      <div class="job">
+        <div class="job-title">Web Development Intern <span class="date">duration- 1 month (2023) </span></div>
+        <p><strong>codezeal pvt. ltd. – Ranchi, india</strong></p>
+        <ul>
+          <li> Built basic static and dynamic web pages using HTML, CSS, JavaScript and PHP</li>
+          <li>Integrated MySQL database with backend script</li>
+          <li>Participated in UI design and code debugging during submissions</li>
+        </ul>
+      </div>
+
+      
+    <div class="education">
+      <h2>Education</h2>
+       
+
+      <div class="degree">
+        <div class="degree-title">B.C.A <span class="date">2020 – 2023</span></div>
+        <p>Vinoba Bhave University | CGPA: 7.45/10</p>
+      </div>
+
+      <div class="degree">
+        <div class="degree-title">Intermediate(12th),Science <span class="date">2018 – 2020</span></div>
+        <p>Marwari College, Ranchi | Marks: 300/500 </p>
+      </div>
+      <div class="degree">
+        <div class="degree-title"> Matriculation(10th) <span class="date">2018</span></div>
+        <p>S V M High School, Jori | Marks: 395/500 </p>
+      </div>
+       
+    </div>
+    <div class="careerbreak">
+        <h2>Career Break</h2>
+        <div class="degree">
+        <div class="degree-title">  <span class="date">july 2023 – july 2025</span></div>
+         <ul>
+            <li>Provided financial and personal support to family during a critical phase.</li>
+            <li>Worked independently on personal coding and web development projects.</li>
+            <li>Prepared for competative entrance exams for admission into a reputed MCA program.</li>
+         </ul>
+      </div>
+    </div>
+    <div class="str">
+        <h2>
+            Strengths
+        </h2>
+        <ul>
+            <li>Quick Learner, Self-Motivated, Consistent in Practice</li>
+            <li>Good logical Thinking & Attention to Detail</li>
+            <li>Positive Attitude and Team Spirit</li>
+        </ul>
+    </div>
+  </div>
+
+</body>
+</html>
